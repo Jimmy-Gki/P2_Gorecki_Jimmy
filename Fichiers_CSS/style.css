@@ -42,7 +42,6 @@ body, html
 .menu 
 {
     margin:0;
-    margin-top: 20px;
     list-style-type: none;
 }
 li 
@@ -57,6 +56,7 @@ li
     text-align:center;
     padding: 5px;
 }
+
 a
 {
     text-decoration: none;
@@ -555,6 +555,7 @@ figure h2, p
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 .grille-populaires a
@@ -619,7 +620,7 @@ figure h2, p
 .pop-details p
 {
     font-size: 14px;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: 10px;
 }
 
@@ -816,33 +817,39 @@ figure h2, p
 
 /*Pied de page*/
 
-footer {
+footer 
+{
     margin-top:-75px;
     padding-bottom: 50px;
     background-color: #f2f2f2;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     white-space: nowrap;
+    width: 100%;
+    justify-content: center;
 }
 
-.footer-titre {
+.footer-titre 
+{
     font-weight: bolder;
     margin-bottom: 10px;
     font-size: 20px;
     padding-right: 100px;
 }
 
-footer ul {
-    padding-left: 50px;
+footer ul 
+{
     margin-top: 20px;
     margin-bottom: 30px;
     list-style: none;
     text-align: left;
 }
 
-footer li {
+footer li 
+{
     font-size: 16px;
     margin-top: 10px;
+    margin-left: 0px;
 }
 
 
@@ -1003,13 +1010,11 @@ footer li {
     .hebergement h2
     {
         margin-bottom: -40px;
-        padding-bottom: 200px;
     }
 
     .hebergements-marseille
     {
         flex-direction: column;
-        height: 500px;
         max-width: 600px;
     }
 
@@ -1023,7 +1028,7 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .image2
@@ -1031,7 +1036,7 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .image3
@@ -1039,7 +1044,7 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .image4
@@ -1047,7 +1052,7 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .image5
@@ -1055,7 +1060,7 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .image6
@@ -1063,14 +1068,13 @@ footer li {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 400px;
+        height: 220px;
     }
 
     .afficher-plus
     {
         font-size: 18px;
         margin: 0 0 50px 0;
-        padding-top: 150px;
     }
 
     #populaires
@@ -1105,6 +1109,7 @@ footer li {
     .pop-details p
     {
         font-size: 16px;
+        margin-top: -50px;
     }
 
     .pop-img1
@@ -1182,7 +1187,7 @@ footer li {
         list-style: none;
         margin-top: 20px;
         margin-bottom: 30px;
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
 }
@@ -1227,11 +1232,19 @@ footer li {
     {
         margin-top: 10px;
         display: flex;
+        width: 100%;
     }
 
     .logo-booki
     {
         margin-left: 42%;
+    }
+
+    .menu
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
     }
 
     ul .menu
@@ -1247,15 +1260,14 @@ footer li {
     .header-top .menu
     {
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
         text-decoration: none;
+        margin-top: 20px;
     }
 
     .header-top .menu li
     {
-        padding-top: 20px;
         width: 50%;
+        margin-left: 0px;
     }
 
     .header-top .menu li:nth-child(1)
@@ -1456,6 +1468,11 @@ footer li {
         height: 100%;
     }
 
+    .grille-populaires
+    {
+        padding-left: 0px;
+    }
+
     .grille-populaires figure:hover
     {
         transform: none;
@@ -1523,6 +1540,8 @@ footer li {
         overflow: hidden;
         width: 100%;
         height: 220px;
+        margin-top: -5px;
+        margin-left: -5px;
     }
 
     .img-grande
