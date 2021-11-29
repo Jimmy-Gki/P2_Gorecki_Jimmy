@@ -826,7 +826,7 @@ footer
     flex-wrap: wrap;
     white-space: nowrap;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
 }
 
 .footer-titre 
@@ -850,6 +850,11 @@ footer li
     font-size: 16px;
     margin-top: 10px;
     margin-left: 0px;
+}
+
+footer li a
+{
+    padding-left: 0;
 }
 
 
@@ -1180,6 +1185,7 @@ footer li
     footer
     {
         margin-top: -15px;
+        padding-left: 10px;
     }
 
     footer ul
@@ -1209,12 +1215,6 @@ footer li
         padding: 0;
     }
 
-    header
-    {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .main
     {
         display: flex;
@@ -1238,6 +1238,8 @@ footer li
     .logo-booki
     {
         margin-left: 42%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .menu
@@ -1254,7 +1256,21 @@ footer li
 
     #texte .titre
     {
-        padding-top: 40px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sous-titre
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .recherche
+    {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .header-top .menu
@@ -1310,7 +1326,8 @@ footer li
     {
         margin: auto;
         margin-bottom: 20px;
-        width: 100%;
+        width: 95%;
+        padding-left: 10px;
     }
 
     .fa-search::before
@@ -1368,14 +1385,19 @@ footer li
         border-radius: 0;
         background: none;
         text-transform: none;
-        background-color: #f2f2f2;
+    }
+
+    .hebergement
+    {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .hebergement h2
     {
         font-size: 20px;
         font-weight: bolder;
-        margin-top: 40px;
+        margin: 30px 0 16.6px 10px;
     }
 
     .grille-gauche
