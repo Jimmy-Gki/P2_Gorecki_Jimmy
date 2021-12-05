@@ -1,3 +1,16 @@
+/*Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face 
+{
+font-family: "bootstrap-icons";
+src: url("./fonts/bootstrap-icons.woff2?45695e8b569b2b0178db2713ca47065c") format("woff2"),
+url("./fonts/bootstrap-icons.woff?45695e8b569b2b0178db2713ca47065c") format("woff")
+}
+
+
+
+
 body, html
 {
     font-family: 'Raleway', sans-serif;
@@ -50,10 +63,8 @@ li
     margin-left: 70px;
 }
 .menu, li, a 
-{
-    display:inline;   
+{  
     width:auto;
-    text-align:center;
     padding: 5px;
 }
 
@@ -66,16 +77,16 @@ a
 .hebergements:hover
 {
     color:#0065FC;   
-    border-top:2px solid #0065FC;
-    padding-top: 38px;
+    border-top:3px solid #0065FC;
+    padding-top: 42px;
 
 }
 
 .activites:hover
 {
     color:#0065FC;   
-    border-top:2px solid #0065FC;
-    padding-top: 38px;
+    border-top:3px solid #0065FC;
+    padding-top: 42px;
 }
 
 #texte
@@ -367,7 +378,7 @@ input.btn-txt
 .details h3
 {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .hebergements-marseille
@@ -820,13 +831,13 @@ figure h2, p
 footer 
 {
     margin-top:-75px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     background-color: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
     width: 100%;
-    justify-content: left;
+    justify-content: space-around;
 }
 
 .footer-titre 
@@ -841,6 +852,7 @@ footer ul
 {
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-left: 30px;
     list-style: none;
     text-align: left;
 }
@@ -850,12 +862,20 @@ footer li
     font-size: 16px;
     margin-top: 10px;
     margin-left: 0px;
+    float: initial;
 }
 
 footer li a
 {
     padding-left: 0;
 }
+
+.non-visible
+{
+    opacity: 0;
+}
+
+
 
 
 /*Medias Query*/
@@ -1196,6 +1216,16 @@ footer li a
         padding-left: 5px;
     }
 
+    .footer-titre
+    {
+        font-size: 16px;
+    }
+
+    footer li a 
+    {
+        font-size: 14px;
+    }
+
 }
 
 /*Mobiles*/
@@ -1284,6 +1314,7 @@ footer li a
     {
         width: 50%;
         margin-left: 0px;
+        text-align: center;
     }
 
     .header-top .menu li:nth-child(1)
@@ -1343,8 +1374,8 @@ footer li a
         opacity: 1;
         text-align: center;
         color: white;
-        height: 25px;
-        width: 45px;
+        height: 32px;
+        width: 55px;
         border-radius: 10px 10px 10px 10px;
         background-color: #0065FC;
         padding-top: 10px;
@@ -1683,7 +1714,8 @@ footer li a
 
     footer ul
     {
-        margin-bottom: 0%;
+        margin-bottom: 0;
+        margin-left: 0;
         padding-left: 30px;
     }
 
