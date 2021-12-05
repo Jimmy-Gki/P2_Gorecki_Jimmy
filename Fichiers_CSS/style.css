@@ -681,7 +681,7 @@ figure h2, p
 
 #activites p
 {
-    padding: 10px 0 35px 15px;
+    padding: 10px 0 35px 10px;
     font-weight: bolder;
     font-size: 16px;
     text-align: left;
@@ -869,22 +869,22 @@ footer
 {
     font-weight: bolder;
     margin-bottom: 10px;
-    font-size: 20px;
-    padding-right: 100px;
+    font-size: 18px;
+    padding-right: 50px;
 }
 
 footer ul 
 {
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 30px;
     list-style: none;
     text-align: left;
+    padding-left: 0;
 }
 
 footer li 
 {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     margin-left: 0px;
     float: initial;
